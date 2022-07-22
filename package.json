@@ -1,0 +1,30 @@
+{
+  "name": "realtime-cli-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cdw1p/realtime-cli-web.git"
+  },
+  "author": "cdw1p",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cdw1p/realtime-cli-web/issues"
+  },
+  "homepage": "https://github.com/cdw1p/realtime-cli-web#readme",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "express-async-errors": "^3.1.1",
+    "http": "^0.0.1-security",
+    "moment-timezone": "^0.5.34",
+    "morgan": "^1.10.0",
+    "path": "^0.12.7",
+    "socket.io": "^4.5.1",
+    "uuidv4": "^6.2.13"
+  }
+}
